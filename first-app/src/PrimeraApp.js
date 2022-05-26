@@ -8,7 +8,7 @@ const PrimeraApp = ({saludo,  subTitulo })=>{
        
 
 
-    return (
+    return ( 
     <>
 
     <h1>{saludo}</h1>
