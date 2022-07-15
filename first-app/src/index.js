@@ -2,7 +2,8 @@
 
 import React from 'react' 
 import  { createRoot } from 'react-dom/client'
-import { Padre } from './Components/07-tar/Padre'
+import { BrowserRouter } from "react-router-dom";
+//import { Padre } from './Components/07-tar/Padre'
 import { MainScreen } from './Components/09-UseContext/Main'
 //import ToDoApp from './Components/08-useReducer/ToDoApp'
 //import CallBackHook from './Components/06-memos/CallbackHook'
@@ -36,7 +37,12 @@ const divRoot = document.querySelector('#app')
 const root = createRoot(divRoot)
 
 root.render(
+    <BrowserRouter>
+    
+   
     <MainScreen/>
+    </BrowserRouter>
+
 
 )
  
